@@ -1,3 +1,7 @@
-let greetingText = 'Hello, I am Emir!';
 let age = 30;
-alert(greetingText + ' I am ' + age + ' years old.');
+let userName = 'Emir';
+let hobbies = ['writing', 'photography', 'swimming'];
+let job = {
+  title: 'Software Engineer',
+  place: 'New York City',
+};
