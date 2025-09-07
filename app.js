@@ -13,12 +13,15 @@
 
 // alert(findGoal(0, goals));
 
-let person = {
-  name: 'Seamus', //property
-  greet() {
-    // method
-    alert(this.name);
-  },
-};
+// let person = {
+//   name: 'Seamus', //property
+//   greet() {
+//     // method
+//     alert(this.name);
+//   },
+// };
 
-person.greet();
+// person.greet();
+
+let userName = 'Emir';
+alert(userName.length);
