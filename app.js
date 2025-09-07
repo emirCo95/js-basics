@@ -6,3 +6,5 @@ let job = {
   place: 'New York City',
   salary: 60000,
 };
+
+let adultYears = age - 18;
