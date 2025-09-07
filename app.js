@@ -17,6 +17,8 @@ let person = {
   name: 'Seamus', //property
   greet() {
     // method
-    alert('Hello!!!');
+    alert(this.name);
   },
 };
+
+person.greet();
