@@ -23,5 +23,8 @@
 
 // person.greet();
 
-let userName = 'Emir';
-alert(userName.length);
+// let userName = 'Emir';
+// alert(userName.length);
+
+let hobbies = ['Sports', 'Cooking'];
+alert(hobbies.length);
