@@ -1,3 +1,1 @@
-document.body.children[1].children[0].href = 'https://google.com';
-
-console.log(document.body.children[1].children[0].href);
+document.getElementById('external-link');
