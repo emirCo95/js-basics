@@ -15,5 +15,5 @@ const loggedInUser = {
 };
 
 for (const key in loggedInUser) {
-  console.log(key);
+  console.log(loggedInUser[key]);
 }
