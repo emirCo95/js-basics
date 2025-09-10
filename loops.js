@@ -7,3 +7,13 @@ const users = ['Max', 'Anna', 'Joel'];
 for (const user of users) {
   console.log(user);
 }
+
+const loggedInUser = {
+  name: 'Max',
+  age: 32,
+  isAdmin: true,
+};
+
+for (const key in loggedInUser) {
+  console.log(key);
+}
