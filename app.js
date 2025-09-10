@@ -14,6 +14,9 @@ function updateRemainingChars(event) {
   if (remainingChars <= 10) {
     remainingCharsEl.classList.add('warning');
     productNameInputEl.classList.add('warning');
+  } else {
+    remainingCharsEl.classList.remove('warning');
+    productNameInputEl.classList.remove('warning');
   }
 }
 
